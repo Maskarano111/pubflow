@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCfSFL9wU-VrzyVant_VbxScVLreqjknt0",
+  apiKey: (import.meta as any).env?.VITE_FIREBASE_API_KEY || "AIzaSyCfSFL9wU-VrzyVant_VbxScVLreqjknt0",
   authDomain: "pubflow-app.firebaseapp.com",
   projectId: "pubflow-app",
-  storageBucket: "pubflow-app.firebasestorage.app",
-  messagingSenderId: "483893059685",
-  appId: "1:483893059685:web:3e4d1b000e0d6cc176a68c",
+  storageBucket: "pubflow-app.appspot.com",
+  messagingSenderId: "344114663090",
+  appId: "1:344114663090:web:8c0f4b3b0f8b925e3b8f6f",
   measurementId: "G-VZ88L275PP"
 };
 

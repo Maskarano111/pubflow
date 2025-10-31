@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PubFlow - Complete System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      font-family: 'Inter', sans-serif;
+      background-color: #020617; /* bg-slate-950 */
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .sidebar-link.active {
+      background-color: #334155;
+      color: #f59e0b;
+    }
+    .sidebar-link.active svg {
+      color: #f59e0b;
+    }
+    .waiter-nav-link.active {
+      color: #f59e0b;
+    }
+  </style>
+ 
+</head>
+<body class="h-full bg-slate-950 text-gray-200">
+  <div id="root" class="h-full"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

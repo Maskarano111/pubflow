@@ -1,0 +1,5 @@
+{
+  "name": "PubFlow",
+  "description": "A comprehensive pub management system featuring dedicated interfaces for customers, waiters, counter staff, and administrators. Customers can browse the menu and place orders, while staff can manage orders, menu items, and view sales analytics in real-time.",
+  "requestFramePermissions": []
+}
